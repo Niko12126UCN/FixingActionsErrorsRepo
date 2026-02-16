@@ -6,7 +6,7 @@
 
   "parallelizeTestCollections": true,
 
-  "maxParallelThreads": 0,
+  "maxParallelThreads": 10,
 
   "diagnosticMessages": true
 
