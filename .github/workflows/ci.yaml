@@ -105,4 +105,4 @@ jobs:
           name: build-output
 
       - name: Run xUnit tests in parallel
-        run: dotnet test --no-build --configuration ${{ env.BUILD_CONFIG }} --verbosity normal -m:0
+        run: dotnet test --no-build --configuration ${{ env.BUILD_CONFIG }} --verbosity normal -m:10
