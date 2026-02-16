@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace bad_project;
+
 public class Calculator
 {
     public int Add(int a, int b)
